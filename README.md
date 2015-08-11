@@ -2,7 +2,7 @@ This program is designed to be run in two different ways: through the Dalvik vir
 
 To run it in the Java virtual machine, simply compile and run (omit MainActivity.java):
 
-	javac -cp app/src/main/java app/src/main/java/com/example/inheritance/C\*.java app/src/main/java/com/example/other/C3.java
+	javac -cp app/src/main/java app/src/main/java/com/example/inheritance/C*.java app/src/main/java/com/example/other/C3.java
 	java -cp app/src/main/java com.example.inheritance.C4
 
 The output of this program shows that C2 successfully overrides the behavior of C1 but that C3 overrides neither C2 or C1:
